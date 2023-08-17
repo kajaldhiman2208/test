@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping cart</title>
+    <style>
+        header {
+   
+   display: flex;
+   width: 100vw;
+   height: 100px;
+   /* position:sticky; */
+   /* background-color:red; */
+   display: flex;  
+   align-items: center;
+   text-align: center; 
+}
+
+header div {
+   padding: 20px;
+}
+
+.header2 {
+   display: flex;
+   position: relative;
+   left: 500px;
+  
+}
+    .mainbox{
+        position:relative;
+        top:40px;
+        left:170px;
+        height:80vh;
+        width:80vw;
+        /* background-color:black; */
+        display:flex;
+    }
+
+.box1{
+    height:100%;
+    width:60%;
+    background-color:#E8EEF3;
+}
+.ordersummary{
+    height:80%;
+    width:50%;
+    background-color:#6D955E;
+
+}
+.head{
+    height:100px;
+    width:300px;
+    /* background-color:red; */
+    position:relative;
+    left:150px;
+    text-align:center;
+    color:white;
+}
+.info{
+    height:100px;
+    width:300px;
+    /* background-color:red; */
+    position:relative;
+    left:150px;
+    
+    color:white;
+    top:10px;
+}
+.total{
+    height:90px;
+    width:300px;
+    /* background-color:red; */
+    position:relative;
+    left:150px;
+    text-align:center;
+    top:40px;
+    font-size:25px;
+    color:white;
+    
+}
+.placeorder{
+    height:70px;
+    width:100%;
+    background-color:white;
+    text-align:center;
+    position:relative;
+    top:37px;
+    border:2px solid black;
+
+}
+</style>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\Dell\Downloads\logoimge-removebg-preview.png">
+        <div class="home"><a href="plantweb.html" style="text-decoration:none; color:black;">Home</a></div>
+        <div class="about">About</div>
+        <div class="contact">Contact</div>
+        <div class="blog">Blog</div>
+
+        <div class="header2">
+            <div class="login"><a href="loginplant1.html" style="text-decoration:none; color:black;">Login</a></div>
+            <div class="search">search</div>
+            <div class="sigin">signin</div>
+        </div>
+
+    </header>
+
+    <h1 style="position:relative; align-item:center; text-align:center;">YOUR CART</h1>
+
+    <div class="mainbox">
+        <div class="box1">
+
+            <div class="boxh">
+               <p style="text-align:center;"> Shopping cart
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                0 items
+                </p>
+                <hr>
+                <p style="text-align:center;">Product details
+                 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                
+
+               
+                    Quantity
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+
+                    Price
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    
+                    Total
+                </p>
+
+            </div>
+            <div class="item" style="display:flex;">
+                <div class="image" style="display:flex;">
+                <img src="" style="height:100px; width:100px;">
+                <p>PLANT NAME</p><br>
+                <p style="position:relative; top:40px; left:-100px;">$0</p>
+                
+                </div>
+                <div class="quantitybtn" style="position:relative; left:80px; top:10px; ">
+                    <span id="minus">-</span>
+                    <button>0</button>
+                    <span id="plus">+</span>
+                </div>
+                <div class="pricebtn" style="position:relative; left:220px;">
+                    <p id="priceb">$0</p>
+                </div>
+                <div class="tot" style="position:relative; left:310px;">
+                    <p id="tota">$0</p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="ordersummary">
+            <div class="head">
+                <h2>ORDER SUMMARY</h2>
+                <hr>
+            </div>
+            <div class="info">
+                <p>subtotal &nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    
+                    $0
+                </p>
+                <p>Shipping &nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    Free
+                </p>
+                <p style="color:white;">Add Coupne Code -></p>
+            </div>
+            <div class="total">
+                <p><b>TOTAL &nbsp&nbsp&nbsp
+                    &nbsp&nbsp $0
+                </b></p>
+            </div>
+            <div class="placeorder">
+                <h1>PLACE ORDER</h1>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
