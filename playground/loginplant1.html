@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>plantlogin2</title>
+    <style>
+          body {
+
+/* background-color:black; */
+/* text-align:center;
+align-items:center; */
+background-color: white;
+}
+          .mainbox {
+            height: 80vh;
+            width: 50vw;
+            /* background-color:red; */
+            color: white;
+            position: relative;
+            top: 10px;
+            left: 26%;
+            text-align:center;
+            /* align-items:center;  */
+            display: flex;
+            overflow:hidden;
+           
+            background-image:url("https://i.pinimg.com/564x/c0/6f/12/c06f125d15e2edc83ee013eeabd04bb6.jpg");
+            background-size:cover;
+        }
+        input[type="text"] {
+            caret-color: white;
+            background: transparent;
+            border: none;
+            color: white;
+            outline-width: 0;
+        }
+
+        input[type="password"] {
+            caret-color: white;
+            background: transparent;
+            border: none;
+            color: white;
+            outline-width: 0;
+        }
+        #sign-up{
+            position:relative;
+            left:500px;
+            background-color:#093923;
+            width:50%;
+            transition: all 1s ease;
+        }
+        #log-in{
+            background-color:#093923;
+            position:relative;
+            left:0px;
+            width:50%;
+            transition: all 1s ease;
+        }
+        /* #image{
+            background-image:url("https://i.pinimg.com/564x/13/e4/1e/13e41e8656ba0f0740a49b59b2e3c100.jpg");
+            height:100%;
+            width:33.33%;
+            position:relative;
+            left:0%;
+            background-size:cover;
+        } */
+        #btn1{
+            background-color:#fff;
+            color:black;
+            height:30px;
+            width:100px;
+            position:relative;
+            border-radius:20px 0px 0px 20px;
+            left:37%;
+        }
+        #btn2{
+            background-color:#fff;
+            color:black;
+            height:30px;
+            width:100px;
+            position:relative;
+            border-radius:0px 20px 20px 0px;
+            left:-37%;
+        }
+        header {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    /* background-color:red; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+header div {
+    padding: 20px;
+}
+.header2 {
+    display: flex;
+    position: relative;
+    left: 500px;
+}
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="C:\Users\Dell\Downloads\logoimge-removebg-preview.png">
+        <div class="home"><a href="plantweb.html" style="text-decoration:none; color:black;">Home</a></div>
+        <div class="about">About</div>
+        <div class="contact">Contact</div>
+        <div class="blog">Blog</div>
+
+        <div class="header2">
+            <div class="login"><a href="loginplant1.html" style="text-decoration:none; color:black;">Login</a></div>
+            <div class="search">search</div>
+            <div class="sigin">signin</div>
+        </div>
+
+    </header>
+    <div class="mainbox" id="main">
+       
+
+        <!--**********************div login***************-->
+        
+         <div id="log-in">
+            <button id="btn1" onclick="signup()">signup</button>
+            <form method="post">
+                
+                
+
+                <br><br><br><br>
+                <span id="heading">
+                    <h1><b>LOG IN</b></h1>
+                    <hr style="width:70px;">
+                </span>
+                <br><br><br>
+
+               
+                    <label for="name">NAME</label><br>
+                    <input type="text" id="name1" name="name1">
+                    <hr style="width:160px;"><br>
+
+                    <label for="name">PASSWORD</label><br>
+                    <input type="password" id="password1" name="password1">
+                    <hr style="width:160px;"><br><br><br>
+
+
+
+                    <input type="checkbox" id="rememberme" name="rememberme" value="Remember Me"
+                        style="color:white;">
+                    <label for="rememberme">Remember Me</label>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <a href="#" style="color:white;">Forgot Password</a>
+                    <br><br><br><br>
+                    <button type="submit" style="background-color:white; color:black; height:40px; width:100px; border-radius:20px;
+                    cursor:pointer;">SUBMIT</button>
+                </form>
+
+            </div>
+            <div id="image">
+            
+            </div>
+
+        <!-- **************div signup****************** -->
+        <div id="sign-up">
+            <button id="btn2" onclick="login()">login</button>
+            <form method="post">
+                <br>
+                <span id="heading">
+                    <h1><b>SIGN IN</b></h1>
+                    <hr style="width:70px;">
+                </span>
+                <br>
+
+               
+                    <label >E-MAIL</label><br>
+                    <input type="text" id="email" name="email">
+                    <hr style="width:160px;"><br>
+
+                    <label for="name">NAME</label><br>
+                    <input type="text" id="name" name="name">
+                    <hr style="width:160px;"><br>
+
+                    
+                    <label for="name">PASSWORD</label><br>
+                    <input type="password" id="password" name="password">
+                    <hr style="width:160px;"><br>
+
+                    
+
+
+                    <input type="checkbox" id="rememberme" name="rememberme" value="Remember Me"
+                        style="color:white;">
+                    <label for="rememberme">Remember Me</label>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                   
+                    <br><br><br><br>
+                    <button type="submit" style="background-color:white; color:black; height:40px; width:100px; border-radius:20px;
+                    cursor:pointer;">REGISTER</button>
+                </form>
+
+            </div>
+            </div>
+
+            <script>
+                
+   
+
+       
+       var x=document.getElementById("sign-up");
+       var y=document.getElementById("log-in");
+    //    var z=document.getElementById("image");
+    //    var ba = document.getElementById('sign-up');
+       
+
+       function login(){
+        x.style.left="100%";
+        y.style.left="0%";
+       
+        
+       }
+
+       function signup(){
+       x.style.left="-0%";
+       y.style.left="50%";
+       
+       }
+            </script>
+</body>
+</html>

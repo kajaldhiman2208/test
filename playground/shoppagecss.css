@@ -1,0 +1,293 @@
+* {
+    padding: 0;
+
+}
+
+body {
+    background-color: #F8F8F8;
+    align-items: center;
+
+    text-align: center;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    /* background-color:red; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+header div {
+    padding: 20px;
+}
+
+.header2 {
+    display: flex;
+    position: relative;
+    left: 500px;
+
+}
+
+.maindiv {
+    height: 1080px;
+    width: 1400px;
+    /* background-color:black; */
+    position: relative;
+    left: 53px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p1 {
+    height: 550px;
+    width: 450px;
+    background-color: #A5B9B9;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    background-image:url("https://i.pinimg.com/564x/9b/3c/3b/9b3c3b4ff7321ab56eff3384681f70b7.jpg");
+    background-size:cover;
+    color:white;
+}
+
+.p2 {
+    height: 550px;
+    width: 400px;
+    background-color: #A5B9B9;
+    position: relative;
+    background-image:url("https://i.pinimg.com/236x/ab/b3/39/abb3393f99046168c52e8b7c43f283f0.jpg");
+    left: 40px;
+    background-size:cover;
+    top: 20px;
+    color:white;
+}
+
+.p3 {
+    height: 550px;
+    width: 470px;
+    background-color: #A5B9B9;
+    position: relative;
+    left: 60px;
+    top: 20px;
+    background-image:url("https://i.pinimg.com/564x/8d/cf/a7/8dcfa7b1b89efaee1f75ae76413d76b7.jpg");
+    background-size:cover;
+    
+}
+
+.p4 {
+    height: 450px;
+    width: 315px;
+    background-color: #A5B9B9;
+    position: relative;
+    left: 20px;
+    top: 40px;
+    background-image:url("https://i.pinimg.com/236x/c5/fc/ad/c5fcad40c8709563cc25296d3aa8823a.jpg");
+    background-size:cover;
+    color:white;
+}
+
+.p5 {
+    height: 450px;
+    width: 315px;
+    background-color: #A5B9B9;
+    position: relative;
+    left: 40px;
+    top: 40px;
+    background-image:url("https://i.pinimg.com/236x/a4/5f/55/a45f5562e8262cd94cf09597c09c0333.jpg");
+    background-size:cover;
+    color:white;
+}
+
+.p6 {
+    height: 550px;
+    width: 400px;
+    background-color: #A5B9B9;
+    position: relative;
+    left: 60px;
+    top: 40px;
+    background-image:url("https://i.pinimg.com/236x/fa/c8/0e/fac80e6db27edc22005e8a20b1cd08b7.jpg");
+    background-size:cover;
+    color:white;
+}
+
+.p7 {
+    height: 550px;
+    width: 270px;
+    background-color: #A5B9B9;
+    position: relative;
+    left: 80px;
+    top: 40px;
+    background-image:url("https://i.pinimg.com/236x/1e/be/c6/1ebec69f6186c5965417e0d8deaa1cfb.jpg");
+    background-size:cover;
+    color:white;
+}
+
+.p8 {
+    height: 400px;
+    width: 650px;
+    background-color: #A5B9B9;
+    position: relative;
+    left: 20px;
+    top:-20px;
+    background-image:url("https://images.pexels.com/photos/3076899/pexels-photo-3076899.jpeg?cs=srgb&dl=pexels-huy-phan-3076899.jpg&fm=jpg");
+    background-size:cover;
+    color:white;
+}
+
+.p9 {
+    height: 400px;
+    width: 335px;
+    background-color: #A5B9B9;
+    position: relative;
+    left: 40px;
+    top: 60px;
+    background-image:url("https://www.terragreenhouses.com/wp-content/uploads/2022/12/Pothos-Golden-6-inch-01-scaled.jpeg");
+    background-size:cover;
+    color:white;
+}
+
+.p10 {
+    height: 400px;
+    width: 335px;
+    background-color: #A5B9B9;
+    position: relative;
+    left: 60px;
+    top: 60px;
+    background-image:url("https://i.pinimg.com/564x/d3/ee/9f/d3ee9ffa565dc254db425c780663382f.jpg");
+    background-size:cover;
+    color:white;
+}
+
+/* .p11 {
+    height: 750px;
+    width: 650px;
+    background-color: #A5B9B9;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    background-image:url("https://i.pinimg.com/564x/ea/00/94/ea00945cb4268bd3187492ad3c86bd45.jpg");
+    background-size:cover;
+    color:white;
+    
+}
+
+.p12 {
+    height: 400px;
+    width: 400px;
+    background-color: #A5B9B9;
+    position: relative;
+    left: 40px;
+    top: 80px;
+    background-image:url("https://i.pinimg.com/564x/b9/71/d6/b971d6d8c3088500735df986c4400c42.jpg");
+    background-size:cover;
+    color:white;
+}
+
+.p13 {
+    height: 750px;
+    width: 270px;
+    background-color: #A5B9B9;
+    position: relative;
+    left: 60px;
+    top: 20px;
+    background-image:url("");
+    background-size:cover;
+    color:white;
+}
+
+.p14 {
+    height: 400px;
+    width: 315px;
+    background-color: #A5B9B9;
+    position: relative;
+    left: 20px;
+    top: 40px;
+    background-image:url("");
+    background-size:cover;
+    color:white;
+}
+
+.p15 {
+    height: 400px;
+    width: 315px;
+    background-color: #A5B9B9;
+    position: relative;
+    left: 40px;
+    top: 40px;
+    background-image:url("");
+    background-size:cover;
+    color:white;
+}
+
+.p16 {
+    height: 750px;
+    width: 400px;
+    background-color: #A5B9B9;
+    position: relative;
+    left: 60px;
+    top: -320px;
+    background-image:url("");
+    background-size:cover;
+    color:white;
+}
+
+.p17 {
+    height: 370px;
+    width: 270px;
+    background-color: #A5B9B9;
+    position: relative;
+    left: 80px;
+    top: 60px;
+    background-image:url("");
+    background-size:cover;
+    color:white;
+}
+
+.p18 {
+    height: 400px;
+    width: 650px;
+    background-color: #A5B9B9;
+    position: relative;
+    left: 20px;
+    top: -280px;
+    background-image:url("");
+    background-size:cover;
+    color:white;
+}
+
+.p19 {
+    height: 400px;
+    width: 335px;
+    background-color: #A5B9B9;
+    position: relative;
+    left: 40px;
+    top: -280px;
+    background-image:url("");
+    background-size:cover;
+    color:white;
+}
+
+.p20 {
+    height: 400px;
+    width: 335px;
+    background-color: #A5B9B9;
+    position: relative;
+    left: 60px;
+    top: 190px;
+    background-image:url("");
+    background-size:cover;
+    color:white;
+} */
+.ptext{
+    position:relative;
+    top:65%;
+    left:10%;
+    height:100px;
+    width:60%;
+    text-align:left;
+     /* background-color:black;  */
+     color:white;
+}
